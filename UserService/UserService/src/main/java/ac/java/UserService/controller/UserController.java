@@ -23,6 +23,8 @@ import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 @RequestMapping("/users")
 public class UserController {
 	
+	/* This is controller class used to route the requests using API Gateway*/
+	
 	@Autowired
 	private UserService userService;
 	
